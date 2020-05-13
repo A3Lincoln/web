@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+
+body{
+    background: black;
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.flip {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+}
+.flip img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+}
+
+
+#home{
+    height: 100vh;
+}
+
+#home-logo{
+    height: 150px;
+    margin-top: 50px;
+}
+
+.btn-listen{
+    width: 100px;
+    height: 35px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 7px;
+}
+
+
+.row, .col {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.lyric {
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+    background: black;
+}
+
+.list-song{
+    background: none;
+    list-style-type: none;
+}
+
+.lyrics_list h2{
+    padding-top: 20px;
+}
+
+.song-item a{
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+}
+
+.song-item div .clicked {
+    border-bottom: 2px solid white;
+}
+
+.song-item{
+    margin: 20px;
+   /* border-bottom: 2px solid white;*/
+}
+
+.song-item a:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+#theBalance{
+    margin-bottom: 50px;
+}
+
+.lyrics_list{
+    border: 2px solid white;
+}

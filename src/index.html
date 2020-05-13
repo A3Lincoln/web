@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="main.css">
+
+    <title>CATFISH AND THE BOTTLEMEN</title>
+</head>
+<body>
+
+<div id="home" class="container">
+    <div class="row text-center">
+        <div class="col">
+            <img id = "home-logo" src="img/logo.png"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col text-center">
+            <div class="flip">
+                <div class="front">
+                    <img src="img/the_balance.gif" alt="" />
+                </div>
+                <div class="back">
+                    <img src="img/the_balance_back.png" alt="" />
+                </div>
+            </div>
+            <button type="button" class="btn-listen" id = "btn-theBalance">L Y R I C S</button>
+        </div>
+        <div class="col text-center">
+            <div class="flip">
+                <div class="front">
+                    <img src="img/the_ride.png" alt="" />
+                </div>
+                <div class="back">
+                    <img src="img/the_ride_back.png" alt="" />
+                </div>
+            </div>
+            <button type="button" class="btn-listen" id = "btn-theRide">L Y R I C S</button>
+        </div>
+        <div class="col text-center">
+            <div class="flip">
+                <div class="front">
+                    <img src="img/the_balcony.jpg" alt="" />
+                </div>
+                <div class="back">
+                    <img src="img/the_balcony_back.png" alt="" />
+                </div>
+            </div>
+            <button type="button" class="btn-listen" id ="btn-theBalcony">L Y R I C S</button>
+        </div>
+    </div>
+</div>
+
+<div id = "theBalance" class="container text-center">
+    <div class="row justify-content-md-center">
+        <div class="col-4 lyrics_list text-center">
+            <h2>THE BALANCE</h2>
+            <br>
+            <ul class="list-song text-center">
+                <li class="song-item">
+                    <a id="longshot" class="lyric_item btn-block">LONGSHOT</a>
+                    <div class="lyric longshot text-center"></div>
+                </li>
+                <li class="song-item">
+                    <a id="fluctuate" class="lyric_item">FLUCTUATE</a>
+                    <div class="lyric fluctuate text-center"></div>
+                </li>
+                <li class="song-item">
+                    <a id="2all" class="lyric_item">2 ALL</a>
+                    <div class="lyric 2all text-center"></div>
+                </li>
+                <li class="song-item">
+                    <a id="conversation" class="lyric_item">CONVERSATION</a>
+                    <div class="lyric conversation text-center"></div>
+                </li>
+                <li class="song-item">
+                    <a id="sidetrack" class="lyric_item">SIDETRACK</a>
+                    <div class="lyric sidetrack text-center"></div>
+                </li>
+                <li class="song-item">
+                    <a id="encore" class="lyric_item">ENCORE</a>
+                    <div class="lyric encore text-center"></div>
+                </li>
+                <li class="song-item">
+                    <a id="basically" class="lyric_item">BASICALLY</a>
+                    <div class="lyric basically text-center"></div>
+                </li>
+                <li class="song-item">
+                    <a id="intermission" class="lyric_item">INTERMISSION</a>
+                    <div class="lyric intermission text-center"></div>
+                </li>
+                <li class="song-item">
+                    <a id="mission" class="lyric_item">MISSION</a>
+                    <div class="lyric mission text-center"></div>
+                </li>
+                <li class="song-item">
+                    <a id="coincide" class="lyric_item">COINCIDE</a>
+                    <div class="lyric coincide text-center"></div>
+                </li>
+                <li class="song-item">
+                    <a id="overlap" class="lyric_item">OVERLAP</a>
+                    <div class="lyric overlap text-center"></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+<!-- Flip JQuery-->
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="jquery.flip.min.js"></script>
+<script>
+    $(function(){
+        $(".flip").flip({
+            trigger: 'hover'
+        });
+    });
+</script>
+
+<script src="index.js"></script>
+
+
+</body>
+</html>
